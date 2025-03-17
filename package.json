@@ -6,7 +6,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "server-node": "http-server -p 3000"
+    "server-node": "http-server -p 3000",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
