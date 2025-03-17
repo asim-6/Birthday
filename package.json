@@ -4,6 +4,8 @@
   "description": "Birthday greetings..",
   "main": " ",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server-node": "http-server -p 3000"
   },
   "repository": {
@@ -13,13 +15,16 @@
   "keywords": [
     "Birthday"
   ],
-  "author": "Ayush Sharma",
+  "author": "Asim",
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/ayusharma/birthday/issues"
   },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
+   "homepage": "https://asim-6.github.io/Birthday",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
